@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF0B4"
+    tools:context=".EditPemesananActivity">
+
+    <ImageView
+        android:id="@+id/edit_img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1" />
+
+    <EditText
+        android:id="@+id/form_nama"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_below="@+id/edit_img1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppinsregular"
+        android:hint="Nama Pemesan"
+        android:paddingLeft="25dp" />
+
+    <EditText
+        android:id="@+id/form_makanan"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_below="@+id/form_nama"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppinsregular"
+        android:hint="Nama Makanan"
+        android:paddingLeft="25dp" />
+
+    <EditText
+        android:id="@+id/form_minuman"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_below="@+id/form_makanan"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppinsregular"
+        android:hint="Nama Minuman"
+        android:paddingLeft="25dp" />
+
+    <Button
+        android:id="@+id/btn_ubah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubah"
+        android:width="350dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:layout_below="@+id/form_minuman"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>

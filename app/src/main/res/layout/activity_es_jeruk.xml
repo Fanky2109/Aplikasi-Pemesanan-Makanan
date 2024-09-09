@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF0B4"
+    tools:context=".EsJerukActivity">
+
+    <ImageView
+        android:id="@+id/jeruk_img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1" />
+
+    <ImageView
+        android:id="@+id/jeruk_img2"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/jeruk_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jeruk_img1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Es Jeruk"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/jeruk_img3"
+        android:layout_width="240dp"
+        android:layout_height="286dp"
+        android:layout_below="@+id/jeruk_txt1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/jeruk" />
+
+    <TextView
+        android:id="@+id/jeruk_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jeruk_img3"
+        android:fontFamily="@font/poppinsregular"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="sari buah jeruk biasanya menjadi bagian makan pagi atau sarapan." />
+
+    <TextView
+        android:id="@+id/jeruk_txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jeruk_txt2"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinssemibold"
+        android:paddingTop="10dp"
+        android:text="RP. 4.000"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/nama_jeruk"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/white"
+        android:hint="Nama Pemesan"
+        android:paddingLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_below="@+id/jeruk_txt3"
+        />
+
+    <Button
+        android:id="@+id/btn_jeruk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama_jeruk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_shape"
+        android:text="Pesan Sekarang"
+        android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:id="@+id/jeruk_img4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="-18dp"
+        android:layout_marginBottom="-22dp"
+        android:src="@drawable/gambar3" />
+
+</RelativeLayout>
